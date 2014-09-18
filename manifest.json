@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "URL Shortener - ur2.pl",
+	"description": "URL Shortener allowes you to easly shorten your long URLs!",
+	"version": "1.3",
+
+	"icons": {
+		"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+	},
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+
+	"permissions": [
+		"tabs",
+		"http://ur2.pl/"
+	]
+}
