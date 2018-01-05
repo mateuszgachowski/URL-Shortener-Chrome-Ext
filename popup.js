@@ -5,7 +5,7 @@ window.onload = function () {
 			var str = "url=" + url;
 
 			var xhr = new XMLHttpRequest();
-			xhr.open("PUT", "http://ur2.pl/api/addLink", true);
+			xhr.open("PUT", "https://ur2.pl/api/addLink", true);
 			xhr.onreadystatechange = function () {
 				if(xhr.readyState == 4) {
 					var response = JSON.parse(xhr.responseText);
